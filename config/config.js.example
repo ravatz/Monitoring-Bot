@@ -1,0 +1,36 @@
+import fs from "fs";
+
+const pkg = JSON.parse(fs.readFileSync("package.json"));
+const settings = JSON.parse(fs.readFileSync("./config/setting.json"));
+
+global.bot = {
+  name: "",
+  number: "",
+  version: pkg["version"],
+  locale: "id",
+  city: "",
+  country: "",
+  timezone: "Asia/Jakarta",
+  adsUrl: "",
+  setting: JSON.parse(fs.readFileSync("./config/setting.json")),
+  saveSetting: async function () {
+    await fs.promises.writeFile(
+      "./config/setting.json",
+      JSON.stringify(global.bot.setting, null, 2)
+    );
+    return global.bot.setting;
+  },
+  admin: settings.admin,
+  antiCall: settings.anticall,
+  geminiApi: "",
+  aimlApi: "",
+  clashUrl: "127.0.0.1",
+  clashPort: "",
+  clashSecret: "",
+  description: pkg["description"],
+};
+
+global.owner = {
+  name: "",
+  number: "",
+};
