@@ -27,7 +27,7 @@ opkg update && opkg install nodejs
 ### 📥 Langkah Pertama: Clone Repositori
 
 ```sh
-git clone https://github.com/username/OpenWrtBot.git
+git clone https://github.com/ravatz/OpenWrt-Monitoring-Bot.git
 cd OpenWrtBot
 ```
 
@@ -43,7 +43,7 @@ mv ./config/setting.json.example ./config/setting.json
 Edit file `config.js` sesuai kebutuhan Anda, seperti:
 
 - Nomor admin & owner
-- Port server / endpoint
+- Port API & password clash
 
 ### 📦 Langkah Keempat: Install Dependency
 
