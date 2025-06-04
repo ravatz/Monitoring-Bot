@@ -1,5 +1,5 @@
 {
-  "anticall": false,
+  "anticall": false, // Rubah menjadi true jika ingin menolak semua panggilan
   "antilink": false,
   "admin": []
 }

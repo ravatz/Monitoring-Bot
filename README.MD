@@ -42,8 +42,7 @@ mv ./config/setting.json.example ./config/setting.json
 
 Edit file `config.js` sesuai kebutuhan Anda, seperti:
 
-- Nomor admin
-- API key (jika digunakan)
+- Nomor admin & owner
 - Port server / endpoint
 
 ### 📦 Langkah Keempat: Install Dependency
@@ -69,21 +68,8 @@ npm run start
 
 ---
 
----
-
 ## 📌 Catatan
 
 - Bot ini berbasis [Baileys](https://github.com/adiwajshing/Baileys) dan berjalan secara lokal di OpenWrt.
 - Pastikan penyimpanan cukup & tidak overload CPU jika dijalankan terus-menerus.
 
----
-
-## 🤝 Kontribusi
-
-Pull request, laporan bug, atau ide fitur baru sangat disambut! Jangan lupa ⭐ repo ini jika membantu.
-
----
-
-## 📜 Lisensi
-
-MIT License

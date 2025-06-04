@@ -22,8 +22,6 @@ global.bot = {
   },
   admin: settings.admin,
   antiCall: settings.anticall,
-  geminiApi: "",
-  aimlApi: "",
   clashUrl: "127.0.0.1",
   clashPort: "",
   clashSecret: "",
