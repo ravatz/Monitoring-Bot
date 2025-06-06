@@ -61,6 +61,7 @@ npm run start
 
 ## 🧪 Contoh Perintah (dalam WhatsApp)
 
+- `menu` → Menampilkan semua menu
 - `info` → Menampilkan informasi sistem (CPU, memori, uptime, IP, dsb)
 - `vnstati -i eth0 -s -d` → Kirim grafik trafik jaringan berdasarkan opsi
 - `speedtest` → Jalankan speedtest dan kirim hasilnya
