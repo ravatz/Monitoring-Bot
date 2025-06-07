@@ -16,7 +16,7 @@ Bot WhatsApp untuk memantau sistem OpenWrt Anda secara real-time. Dapatkan infor
 
 ## 🛠️ Instalasi
 
-> **Penting:** Pastikan perangkat OpenWrt Anda sudah memiliki `nodejs` terinstal. Jika belum, jalankan:
+>[!PENTING] Pastikan perangkat OpenWrt Anda sudah memiliki `nodejs` terinstal. Jika belum, jalankan:
 
 ```sh
 opkg update && opkg install nodejs
@@ -50,7 +50,7 @@ Edit file `config.js` sesuai kebutuhan Anda, seperti:
 npm run start
 ```
 
-> 💡 **Tips:** Agar bot tetap berjalan di latar belakang, gunakan `screen` atau `pm2`:
+> [!TIP] Agar bot tetap berjalan di latar belakang, gunakan `screen` atau `pm2`:
 >
 > **Menggunakan screen:**
 >
