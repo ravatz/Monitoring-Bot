@@ -51,21 +51,20 @@ npm run start
 ```
 
 > 💡 **Tips:** Agar bot tetap berjalan di latar belakang, gunakan `screen` atau `pm2`:
+> **Menggunakan screen:**
+>
+> ```sh
+> opkg update && opkg install screen
+> screen -dmS OpenwrtBot sh -c 'cd /root/OpenWrt-Monitoring-Bot && npm run start >> app.log 2>&1'
+> ```
 
-**Menggunakan screen:**
+> **Menggunakan pm2:**
 
-```sh
-opkg update && opkg install screen
-screen -dmS OpenwrtBot sh -c 'cd /root/OpenWrt-Monitoring-Bot && npm run start >> app.log 2>&1'
-```
-
-**Menggunakan pm2:**
-
-```sh
-npm install -g pm2
-cd /root/OpenWrt-Monitoring-Bot
-pm2 start index.js --name OpenwrtBot
-```
+> ```sh
+> npm install -g pm2
+> cd /root/OpenWrt-Monitoring-Bot
+> pm2 start index.js --name OpenwrtBot
+> ```
 
 ---
 

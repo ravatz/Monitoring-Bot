@@ -1,6 +1,6 @@
 {
-  "name": "tohkabot",
-  "version": "3.0",
+  "name": "openwrtbot",
+  "version": "3.3",
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
