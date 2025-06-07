@@ -22,7 +22,7 @@ Bot WhatsApp untuk memantau sistem OpenWrt Anda secara real-time. Dapatkan infor
 opkg update && opkg install nodejs
 ```
 
-### 📥 Langkah 1: Clone Repositori
+### Clone Repositori
 
 ```sh
 git clone https://github.com/ravatz/OpenWrt-Monitoring-Bot.git
@@ -36,7 +36,7 @@ Edit file `config.js` sesuai kebutuhan Anda, seperti:
 - Nomor admin & owner
 - Port API & password Clash (jika menggunakan integrasi)
 
-### 📦 Instalasi Dependency
+### Instalasi Dependency
 
 > Pastikan semua dependency sudah terinstal:
 >
@@ -44,7 +44,7 @@ Edit file `config.js` sesuai kebutuhan Anda, seperti:
 > npm install
 > ```
 
-### ▶️ Menjalankan Bot
+### Menjalankan Bot
 
 ```sh
 npm run start
@@ -69,7 +69,7 @@ npm run start
 
 ---
 
-## 💬 Contoh Perintah WhatsApp
+## Contoh Perintah
 
 - `menu` → Menampilkan semua menu yang tersedia
 - `info` → Informasi sistem: CPU, memori, uptime, IP, dsb
