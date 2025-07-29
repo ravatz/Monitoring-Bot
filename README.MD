@@ -1,6 +1,6 @@
-# 📡 OpenWrt Monitoring Bot
+# 📡Monitoring Bot
 
-Bot WhatsApp untuk memantau sistem OpenWrt Anda secara real-time. Dapatkan informasi seperti status koneksi internet, penggunaan memori, suhu CPU, trafik jaringan, dan lainnya — langsung melalui WhatsApp.
+Bot WhatsApp untuk memantau sistem Anda secara real-time. Dapatkan informasi seperti status koneksi internet, penggunaan memori, suhu CPU, trafik jaringan, dan lainnya — langsung melalui WhatsApp.
 
 ---
 
@@ -25,8 +25,8 @@ opkg update && opkg install nodejs
 ### Clone Repositori
 
 ```sh
-git clone https://github.com/ravatz/OpenWrt-Monitoring-Bot.git
-cd OpenWrtBot
+git clone https://github.com/ravatz/Monitoring-Bot.git /root/MonitoringBot
+cd MonitoringBot
 mv ./config/config.js.example ./config/config.js
 mv ./config/setting.json.example ./config/setting.json
 ```
@@ -56,15 +56,15 @@ npm run start
 >
 > ```sh
 > opkg update && opkg install screen
-> screen -dmS OpenwrtBot sh -c 'cd /root/OpenWrt-Monitoring-Bot && npm run start >> app.log 2>&1'
+> screen -dmS MonitoringBot sh -c 'cd /root/Monitoring-Bot && npm run start >> app.log 2>&1'
 > ```
 >
 > **Menggunakan pm2:**
 >
 > ```sh
 > npm install -g pm2
-> cd /root/OpenWrt-Monitoring-Bot
-> pm2 start index.js --name OpenwrtBot
+> cd /root/Monitoring-Bot
+> pm2 start index.js --name MonitoringBot
 > ```
 
 ---
@@ -81,5 +81,5 @@ npm run start
 
 ## 📌 Catatan
 
-- Bot ini dibangun menggunakan [Baileys](https://github.com/adiwajshing/Baileys) dan dijalankan langsung di perangkat OpenWrt.
+- Bot ini dibangun menggunakan [Baileys](https://github.com/adiwajshing/Baileys).
 - Pastikan penyimpanan internal cukup dan beban CPU tidak tinggi agar bot berjalan stabil.
